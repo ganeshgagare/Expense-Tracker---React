@@ -1,9 +1,8 @@
 {
-  "homepage":"https://ganeshgagare.github.io/Expense-Tracker---React",
+  
   "name": "react-expense-tracker",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ayushkul.github.io/react-expense-tracker",
   "dependencies": {
     "components": "^0.1.0",
     "react": "^17.0.2",
