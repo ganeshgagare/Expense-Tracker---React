@@ -17,6 +17,14 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "your-script": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start"
+},
+
   "eslintConfig": {
     "extends": [
       "react-app",
