@@ -21,6 +21,11 @@
     "eject": "react-scripts eject",
     "your-script": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start"
   },
+  "scripts": {
+  "start": "react-scripts --openssl-legacy-provider start",
+  "build": "react-scripts --openssl-legacy-provider build",
+  "test": "react-scripts --openssl-legacy-provider test"
+},
   "eslintConfig": {
     "extends": [
       "react-app",
